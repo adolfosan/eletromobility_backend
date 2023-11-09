@@ -36,4 +36,9 @@ export class Plug extends Entity<PlugProps> {
     get maxAmperage(): number {
         return this._props.max_amperage
     }
+
+    static isProp( key: string): boolean {
+        const props = ['format','standard','power_type','max_voltage','max_amperage']
+        return props.includes( key)
+    }
 }
