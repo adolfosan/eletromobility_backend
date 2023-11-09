@@ -1,0 +1,11 @@
+
+export enum PlugStandard {
+    CHADEMO = 'CHADEMO',
+    DOMESTIC_A = 'DOMESTIC_A',
+    DOMESTIC_B = 'DOMESTIC_B',
+    DOMESTIC_C = 'DOMESTIC_C',
+    DOMESTIC_D = 'DOMESTIC_D',
+    DOMESTIC_E = 'DOMESTIC_E',
+    DOMESTIC_F = 'DOMESTIC_F',
+
+}
