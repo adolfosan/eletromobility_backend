@@ -23,6 +23,12 @@
       ],
       "@libs/ddd/*": [
         "libs/ddd/src/*"
+      ],
+      "@libs/logic": [
+        "libs/logic/src"
+      ],
+      "@libs/logic/*": [
+        "libs/logic/src/*"
       ]
     }
   }

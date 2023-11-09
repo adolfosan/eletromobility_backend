@@ -15,6 +15,15 @@
       "compilerOptions": {
         "tsConfigPath": "libs/ddd/tsconfig.lib.json"
       }
+    },
+    "logic": {
+      "type": "library",
+      "root": "libs/logic",
+      "entryFile": "index",
+      "sourceRoot": "libs/logic/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/logic/tsconfig.lib.json"
+      }
     }
   }
 }

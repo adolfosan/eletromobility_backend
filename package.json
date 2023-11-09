@@ -70,7 +70,8 @@
       "<rootDir>/libs/"
     ],
     "moduleNameMapper": {
-      "^@libs/ddd(|/.*)$": "<rootDir>/libs/ddd/src/$1"
+      "^@libs/ddd(|/.*)$": "<rootDir>/libs/ddd/src/$1",
+      "^@libs/logic(|/.*)$": "<rootDir>/libs/logic/src/$1"
     }
   }
 }
