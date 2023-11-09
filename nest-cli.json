@@ -1,10 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/nest-cli",
   "collection": "@nestjs/schematics",
-  "sourceRoot": "src",
+  "sourceRoot": "apps/eletromobility_backend/src",
   "compilerOptions": {
     "deleteOutDir": true,
-    "webpack": true
+    "webpack": true,
+    "tsConfigPath": "apps/eletromobility_backend/tsconfig.app.json"
   },
   "projects": {
     "ddd": {
@@ -24,6 +25,26 @@
       "compilerOptions": {
         "tsConfigPath": "libs/logic/tsconfig.lib.json"
       }
+    },
+    "eletromobility_backend": {
+      "type": "application",
+      "root": "apps/eletromobility_backend",
+      "entryFile": "main",
+      "sourceRoot": "apps/eletromobility_backend/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/eletromobility_backend/tsconfig.app.json"
+      }
+    },
+    "locations-service": {
+      "type": "application",
+      "root": "apps/locations-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/locations-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/locations-service/tsconfig.app.json"
+      }
     }
-  }
+  },
+  "monorepo": true,
+  "root": "apps/eletromobility_backend"
 }
