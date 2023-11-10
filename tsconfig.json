@@ -29,6 +29,9 @@
       ],
       "@libs/logic/*": [
         "libs/logic/src/*"
+      ],
+      "@locations-service/*": [
+        "apps/locations-service/src/*"
       ]
     }
   }
