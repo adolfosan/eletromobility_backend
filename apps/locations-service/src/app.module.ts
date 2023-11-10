@@ -1,7 +1,9 @@
 import { Module } from '@nestjs/common';
-
+import { PlugsModule } from './plugs/plugs.module';
 @Module({
-  imports: [],
+  imports: [ 
+    PlugsModule
+  ],
   controllers: [],
   providers: [],
 })
